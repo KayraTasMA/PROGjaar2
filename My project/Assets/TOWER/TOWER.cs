@@ -8,7 +8,8 @@ public class TOWER : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       Random.Range (0, 0);
+        float randomsize = Random.Range(0.5f, 2.0f);
+        transform.localScale = new Vector3(randomsize, randomsize, randomsize); 
     }
     
       
