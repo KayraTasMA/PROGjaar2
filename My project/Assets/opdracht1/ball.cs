@@ -46,7 +46,7 @@ public class ball : MonoBehaviour
                 GameObject newBall = createball(randomColor);
                 Secondball.Add(newBall);
             }
-        }
+        }        
         void Update()
         {
             float r = UnityEngine.Random.Range(0f, 1f);
